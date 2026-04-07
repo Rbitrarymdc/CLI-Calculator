@@ -20,18 +20,23 @@ int main() {
     switch (op){
         case '+':
             cout << num1 << op << num2 << " = " << num1 + num2;
+            break;
 
         case '-':
             cout << num1 << op << num2 << " = " << num1 - num2;
+            break;
 
         case '*':
             cout << num1 << op << num2 << " = " << num1 * num2;
+            break;
 
         case '/':
             cout << num1 << op << num2 << " = " << (double)num1 / num2;
+            break;
 
         default:
             cout << "Invalid Operator. Use (+,-,*,/)";
+            break;
             
     }
     return 0;
